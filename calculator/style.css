@@ -1,0 +1,29 @@
+
+.calculator{
+    margin:30%;
+    border:2px solid black;
+    border-radius:2px;
+    width:30vw;
+    background-color: rgb(15, 14, 14);
+}
+input{
+    margin:10px;
+   width:85%;
+   height:25px;
+   border: 2px solid black;
+   border-radius: 3px;
+
+}
+.buttoncontainer{
+    display:flex;
+    justify-content:center;
+    /* margin: 10px; */
+    flex-wrap: wrap;
+}
+button{
+    background-color: black;
+    color: white;
+   width: 45px;
+   height:45px;
+   margin:3px;
+}

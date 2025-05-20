@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <style>
+        body{
+            margin: 0cqw;
+            background-color: azure;
+            color: black;
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+            color:#333;
+            font-family: 'Times New Roman', Times, serif;
+            font-display: bold;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Contact Form</h1>
+    </header>
+    <section>
+        <h2>Fill the above form clearly</h2>
+        </section>
+        <form>
+            <label for="username">Full name</label>
+            <input type="text" name="username" id="username" placeholder="Enter yor Full name"  required>
+            <br>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+            <br>
+            <br>
+            <label for="phone">Contact info</label>
+            <input type="tel" name="phone" id="phone" placeholder="Enter your phone number" required>
+            <br>
+            <br>
+            <textarea name="message" id="message" cols="50" rows="20" placeholder="Please enter your message here" required></textarea>
+            <br>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+</body>
+</html>

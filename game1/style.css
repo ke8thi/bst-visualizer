@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #e74c3c;
+}
+
+.input-group {
+  margin: 15px 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#sosBtn {
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#sosBtn:hover {
+  background: #c0392b;
+}
+
+#status {
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: #2c3e50;
+}
+
+#map {
+  margin-top: 20px;
+  height: 300px;
+  border-radius: 8px;
+}
+
+
+
+

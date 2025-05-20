@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Personal Safety Alert App</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- ✅ Leaflet CSS without integrity -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
+</head>
+<body>
+  <div class="container">
+    <h1>🚨 Personal Safety Alert App</h1>
+
+    <button id="sosBtn">Send SOS</button>
+
+    <div class="input-section">
+      <input type="text" id="contact" placeholder="Enter Emergency Contact" />
+      <textarea id="message" placeholder="Enter Emergency Message"></textarea>
+    </div>
+
+    <!-- ✅ Location Display -->
+    <div id="location" class="location-display"></div>
+
+    <!-- 🌍 Map Container -->
+    <div id="map" class="map"></div>
+  </div>
+
+  <!-- ✅ Leaflet JS without integrity -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
